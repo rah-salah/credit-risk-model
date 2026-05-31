@@ -92,3 +92,16 @@ trade-off clearly.
 ```bash
 pip install -r requirements.txt
 ```
+
+## Data Source
+Dataset: [Xente Challenge — Kaggle](https://www.kaggle.com/datasets/atwine/xente-challenge)
+
+The dataset contains 95,661 eCommerce transactions from Xente,
+a financial service company in Uganda.
+ENDOFFILEcat >> README.md << 'ENDOFFILE'
+
+## Data Source
+Dataset: [Xente Challenge — Kaggle](https://www.kaggle.com/datasets/atwine/xente-challenge)
+
+The dataset contains 95,661 eCommerce transactions from Xente,
+a financial service company in Uganda.
