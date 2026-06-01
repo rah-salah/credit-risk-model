@@ -15,7 +15,7 @@ def sample_df():
         "Amount": [1000, -200, 5000, 300, 1500],
         "Value": [1000, 200, 5000, 300, 1500],
         "ProductCategory": ["airtime", "airtime", "financial_services",
-                             "utility_bill", "airtime"],
+                            "utility_bill", "airtime"],
         "ChannelId": ["ChannelId_1", "ChannelId_2", "ChannelId_3",
                       "ChannelId_1", "ChannelId_2"],
         "ProviderId": ["ProviderId_1", "ProviderId_2", "ProviderId_1",
