@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  credit-risk-api:
+    build: .
+    container_name: bati_credit_risk_api
+    ports:
+      - "8000:8000"
+    environment:
+      - MODEL_PATH=/app/models/random_forest
+    volumes:
+      - ./models:/app/models
+      - ./data:/app/data
+    command: uvicorn src.api.main:app --host 0.0.0.0 --port 8000 --reload
