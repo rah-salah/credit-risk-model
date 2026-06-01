@@ -1,7 +1,4 @@
-import pandas as pd
-import numpy as np
 import logging
-import os
 from fastapi import FastAPI, HTTPException
 from src.api.pydantic_models import TransactionInput, PredictionOutput
 
