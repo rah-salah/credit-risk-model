@@ -196,14 +196,14 @@ def train_models(df):
         mlflow.log_metrics(metrics)
         mlflow.sklearn.log_model(best_rf, "random_forest")
 
-logger.info("All models trained!")
+    logger.info("All models trained!")
     return best_lr, best_dt, best_rf, X_test, y_test
 
 
 if __name__ == "__main__":
     data_path = "data/raw/data.csv"
     if not os.path.exists(data_path):
-raise FileNotFoundError(f"Data file not found at {data_path}")
+        raise FileNotFoundError(f"Data file not found at {data_path}")
 
     logger.info("Loading data...")
     df = pd.read_csv(data_path)
